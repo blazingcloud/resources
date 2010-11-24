@@ -30,12 +30,47 @@ h3 {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
+#content{
+	display:inline;
+	font-size:18px;
+}
+/********h4 tags designate input or output from the terminal*******/
+h4{
+	font-family:courier;
+	color: #B6CEE3;
+	background-color: #34536E;
+	display:inline;
+	font-size:18px;
+}
+
+/********h5 tags designate input to the editor*******/
+h5{
+	font-family:courier;
+	color: #34536E;
+	background-color: #B6CEE3;
+	display:inline;
+	font-size:18px;
+}
+
+
+/********h6 tags designate input to the browser*******/
+
+h6{
+	font-family:courier;
+	color:black;
+	background-color: #C8DE90;
+	display:inline;
+	font-size:18px;
+}
+
 .hidden {
 	display: none;
 }
 .clear {
 	clear: both;
 }
+
 #page {
 	margin-left: auto;
 	margin-right: auto;
@@ -94,12 +129,11 @@ h3 {
 	width: 100%;
 }
 #content-wrapper {
-	float: left;
-	width: 500px;
+	float: right;
+	width: 700px;
 }
 #content {
 	padding: 25px;
-	border-right: 1px dotted #a3a39c;
 }
 #content h1 {
 	margin-top: 0;
@@ -131,8 +165,8 @@ h3 {
 	margin-top: 0.25em;
 }
 #sidebar-wrapper {
-	float: right;
-	width: 225px;
+	float: left;
+	width: 301px;
 }
 #sidebar {
 	font-size: 90%;
@@ -140,18 +174,24 @@ h3 {
 	padding-top: 0px;
 }
 #sidebar h3 {
-	font-size: 160%;
+	font-size: 24px;
 }
 #sidebar p {
-	line-height: 140%;
+
 }
 #sidebar ul {
-	margin-left: 1.5em;
+	margin-left: 12px;
 	padding: 0;
 }
 #sidebar li {
-	margin-bottom: .25em;
+	margin-bottom: 12px;
+	list-style: none;
 }
+#sidebar a {
+	text-decoration:none;
+	color: navy;
+}
+
 #footer {
 	color: #818cb0;
 	float: left;
