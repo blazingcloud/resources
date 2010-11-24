@@ -89,9 +89,11 @@ h6{
 	overflow:hidden;
 }
 #logo {
-	border:0;
 	float:left;
 	padding:0 20px 20px 20px;
+}
+#logo img{
+	border:none;
 }
 
 #title h1{
@@ -100,7 +102,7 @@ h6{
 	float:left;
 	text-align: left;
 	width: 700px;
-	
+	line-height:30px;
 }
 
 .navigation a{
@@ -130,15 +132,18 @@ h6{
 }
 #content-wrapper {
 	float: right;
-	width: 700px;
+	width: 650px;
+	overflow:hidden;
+	padding:25px;
 }
 #content {
-	padding: 25px;
+	overflow:hidden;
 }
 #content h1 {
 	margin-top: 0;
+	color:navy;
 }
-#content h3 a {
+#content h3{
 	border-bottom: 1px dotted #a3a39c;
 	display: block;
 	padding-bottom: 2px;
@@ -147,56 +152,72 @@ h6{
 #content p {
 	line-height: 160%;
 }
-#content .info {
-	color: #b0af99;
-	font-size: 80%;
-	margin-top: 1.5em;
+/*********#content .info {              **********/
+/*********	color: #b0af99;             **********/
+/*********	font-size: 80%;             **********/
+/*********	margin-top: 1.5em;          **********/
+/*********}                             **********/
+/*********#content .entry .info {       **********/
+/*********	margin-top: 1em;            **********/
+/*********}                             **********/
+/*********#content .first.entry {       **********/
+/*********	background-color: #f7f3e8;  **********/
+/*********	margin: -25px;              **********/
+/*********	margin-bottom: 0;           **********/
+/*********	padding: 25px;              **********/
+/*********}                             **********/
+/*********#content .first.entry h3 {    **********/
+/*********	margin-top: 0.25em;         **********/
+/*********}                             **********/
+#content li{
+	list-style:none;
 }
-#content .entry .info {
-	margin-top: 1em;
+#content a{
+	text-decoration:none;
+	color:orange;
 }
-#content .first.entry {
-	background-color: #f7f3e8;
-	margin: -25px;
-	margin-bottom: 0;
-	padding: 25px;
+#content a:visited {
+	color: navy;
+	text-decoration: none;
 }
-#content .first.entry h3 {
-	margin-top: 0.25em;
+#content a:hover {
+	color: blue;
+	text-decoration: none;
 }
-#sidebar-wrapper {
+
+
+.sidebar-wrapper {
 	float: left;
 	width: 301px;
 }
-#sidebar {
+.sidebar {
 	font-size: 90%;
 	padding: 15px;
 	padding-top: 0px;
 }
-#sidebar h3 {
+.sidebar h3 {
 	font-size: 24px;
 }
-#sidebar p {
+.sidebar p {
 
 }
-#sidebar ul {
+.sidebar ul {
 	margin-left: 12px;
 	padding: 0;
 }
-#sidebar li {
+.sidebar li {
 	margin-bottom: 12px;
 	list-style: none;
 }
-#sidebar a {
+.sidebar a {
 	text-decoration:none;
 	color: navy;
 }
 
 #footer {
 	color: #818cb0;
-	float: left;
-	font-size: 90%;
 	padding-top: 1px;
 	padding-bottom: 20px;
-	width: 100%;
+	width: 370px;
+	margin:auto;
 }

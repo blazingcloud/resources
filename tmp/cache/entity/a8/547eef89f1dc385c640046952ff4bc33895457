@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+  <head>
+    <title>CMS Workshop</title>
+    <link href="/rss/" rel="alternate" title="RSS" type="application/rss+xml" />
+    <link rel="stylesheet" href="/stylesheets/style.css" media="all" title="Default" charset="utf-8"/>
+  </head>
+  <body>
+    <div id="page">
+      <div id="header">
+  <div id="logo">
+    <a href="http://blazingcloud.net">
+      <img src="http://blazingcloud.net/wp-content/themes/sandbox/assets/header/blazing_cloud_logo.png" alt="Blazing Cloud Logo"/>
+    </a>
+  </div>
+  <div id="title">
+    <h1>Resources</h1>
+  </div>
+  <div class="navigation">
+    <a href='/html-css'>HTML/CSS</a>
+    <a href='/ruby'>Ruby</a>
+    <a href='/rails'>Rails</a>
+    <a href='/javascript'>Javascript</a>
+    <a href='/tdd'>TDD</a>
+    <a href='/cmsworkshop'>CMS Workshop</a>
+  </div>
+</div>
+
+
+      <div id="main">
+        <div id="content-wrapper">
+          <div id="content">
+            <h1>CMS Workshop</h1>
+            
+            <div class="navigation">
+              ****put previous- and next-step buttons here****
+            </div>
+          </div>
+        </div>
+        <div class="sidebar-wrapper">
+  <div class="sidebar">
+    <ul>
+      <li ><a href='/cmsworkshop/setup'>Setup</a></li>
+      <li ><a href='/cmsworkshop/create-hierarchical-pages'>Create Hierarchical Pages</a></li>
+      <li ><a href='/cmsworkshop/layouts-and-snippets'>Layouts and Snippets</a></li>
+      <li ><a href='/cmsworkshop/use-third-party-extensions'>Use Third-Party Extensions</a></li>
+      <li ><a href='/cmsworkshop/page-parts'>Page Parts</a></li>
+      <li ><a href='/cmsworkshop/advanced-radius-tags'>Advanced Radius Tags</a></li>
+      <li ><a href='/cmsworkshop/create-an-extension'>Create an Extension</a></li>
+      <li ><a href='/cmsworkshop/deploy'>Deploy</a></li>
+    </ul>
+  </div>
+</div>
+      </div>
+      <div id="footer">
+  <p>Copyright &copy; 2010, Blazing Cloud, Inc. |  Powered by <a href="http://radiantcms.org/">Radiant</a>.</p>
+</div>
+
+    </div>
+  </body>
+</html>
