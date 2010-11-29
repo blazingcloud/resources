@@ -2,10 +2,10 @@ a {
 	color: #3256B6;
 }
 a:visited {
-	color: #cc9;
+	color: navy;
 }
 a:hover, a:visited:hover {
-	color: #e00;
+	color: orange;
 	text-decoration: none;
 }
 body {
@@ -21,18 +21,22 @@ h1 {
 	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
 	font-size: 36px;
 	font-weight: normal;
+	color:navy;
+}
+h2 {
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+	color:navy;
 }
 h3 {
-	color: #999;
+	color: navy;
 	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
 	font-size: 24px;
 	font-weight: normal;
-	margin-top: 10px;
-	margin-bottom: 10px;
 }
 
 #content{
-	display:inline;
 	font-size:18px;
 }
 /********h4 tags designate input or output from the terminal*******/
@@ -40,16 +44,15 @@ h4{
 	font-family:courier;
 	color: #B6CEE3;
 	background-color: #34536E;
-	display:inline;
 	font-size:18px;
+	overflow:hidden;
 }
 
 /********h5 tags designate input to the editor*******/
 h5{
 	font-family:courier;
-	color: #34536E;
-	background-color: #B6CEE3;
-	display:inline;
+	color: #B6CEE3;
+	background-color: #42B34F;
 	font-size:18px;
 }
 
@@ -60,7 +63,6 @@ h6{
 	font-family:courier;
 	color:black;
 	background-color: #C8DE90;
-	display:inline;
 	font-size:18px;
 }
 
@@ -117,7 +119,7 @@ h6{
 }
 #site-title a:hover, #site-title a:hover {
 	color: white;
-	text-decoration: underline;
+	text-decoration: none;
 }
 #site-subtitle {
 	font-style: italic;
@@ -141,11 +143,8 @@ h6{
 }
 #content h1 {
 	margin-top: 0;
-	color:navy;
 }
 #content h3{
-	border-bottom: 1px dotted #a3a39c;
-	display: block;
 	padding-bottom: 2px;
 	text-decoration: none;
 }
