@@ -39,13 +39,29 @@ h3 {
 #content{
 	font-size:18px;
 }
+
+pre{
+	padding:0;
+	margin:0;
+	display:inline;
+}
+code{
+	padding:0;
+	margin:0;
+	overflow:hidden;
+	display:inline;
+}
+
 /********h4 tags designate input or output from the terminal*******/
 h4{
 	font-family:courier;
 	color: #B6CEE3;
 	background-color: #34536E;
 	font-size:18px;
+	width:650px;
 	overflow:hidden;
+	padding:0;
+	margin:0;
 }
 
 /********h5 tags designate input to the editor*******/
@@ -54,6 +70,10 @@ h5{
 	color: #B6CEE3;
 	background-color: #42B34F;
 	font-size:18px;
+	width:650px;
+	overflow:hidden;
+	padding:0;
+	margin:0;
 }
 
 
@@ -64,7 +84,11 @@ h6{
 	color:black;
 	background-color: #C8DE90;
 	font-size:18px;
+	width:650px;
+	padding:10px;
+	margin:0;
 }
+
 
 .hidden {
 	display: none;
@@ -219,4 +243,8 @@ h6{
 	padding-bottom: 20px;
 	width: 370px;
 	margin:auto;
+}
+
+img.mockup  {
+	width: 650px;
 }
